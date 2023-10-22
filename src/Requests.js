@@ -1,4 +1,4 @@
-const key = '9c864503ebc90dc63dcbe83a20f936c5'
+const key = process.env.REACT_APP_IMDB_API_KEY
 //added ' ' for key so that we can use template literals to access key without writing the entire key multiple times.
 
 const requests = {
